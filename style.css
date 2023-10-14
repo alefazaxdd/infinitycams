@@ -1,0 +1,73 @@
+body {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center; 
+   text-align: center;
+}
+
+* {font-family: Jost;}
+
+#title {
+    color: #3E92CC;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#img {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#img .cam {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#img p {
+    font-size: 50px;
+    margin: 20px
+}
+
+#img img {
+    max-width: 550px;
+    margin-bottom: 20px;
+}
+
+
+
+.button {
+    width: 150px;
+    padding: 25px 50px;
+    border-radius: 50px;
+    font-size: 25px;
+    color: white;
+}
+
+.arrows {
+    margin-bottom: 50px;
+}
+
+.end {
+    padding: 25px 50px;
+}
+
+.blue {
+    background-color: #3E92CC;
+}
+
+.red {
+    background-color: #BD1E1E;
+}
+
+.yellow {
+    background-color: #FFD400;
+}
